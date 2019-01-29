@@ -48,10 +48,10 @@ RM = /home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iksf/CLionProjects/missionariesAndCannibals
+CMAKE_SOURCE_DIR = /home/iksf/CLionProjects/missionariesAndCannibals2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug
+CMAKE_BINARY_DIR = /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named missionariesAndCannibals
+# Target rules for targets named missionariesAndCannibals2
 
 # Build rule for target.
-missionariesAndCannibals: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 missionariesAndCannibals
-.PHONY : missionariesAndCannibals
+missionariesAndCannibals2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 missionariesAndCannibals2
+.PHONY : missionariesAndCannibals2
 
 # fast build rule for target.
-missionariesAndCannibals/fast:
-	$(MAKE) -f CMakeFiles/missionariesAndCannibals.dir/build.make CMakeFiles/missionariesAndCannibals.dir/build
-.PHONY : missionariesAndCannibals/fast
+missionariesAndCannibals2/fast:
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/build
+.PHONY : missionariesAndCannibals2/fast
+
+informed.o: informed.c.o
+
+.PHONY : informed.o
+
+# target to build an object file
+informed.c.o:
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/informed.c.o
+.PHONY : informed.c.o
+
+informed.i: informed.c.i
+
+.PHONY : informed.i
+
+# target to preprocess a source file
+informed.c.i:
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/informed.c.i
+.PHONY : informed.c.i
+
+informed.s: informed.c.s
+
+.PHONY : informed.s
+
+# target to generate assembly for a file
+informed.c.s:
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/informed.c.s
+.PHONY : informed.c.s
 
 main.o: main.c.o
 
@@ -129,7 +156,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/missionariesAndCannibals.dir/build.make CMakeFiles/missionariesAndCannibals.dir/main.c.o
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +165,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/missionariesAndCannibals.dir/build.make CMakeFiles/missionariesAndCannibals.dir/main.c.i
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,8 +174,35 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/missionariesAndCannibals.dir/build.make CMakeFiles/missionariesAndCannibals.dir/main.c.s
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/main.c.s
 .PHONY : main.c.s
+
+uninformed.o: uninformed.c.o
+
+.PHONY : uninformed.o
+
+# target to build an object file
+uninformed.c.o:
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/uninformed.c.o
+.PHONY : uninformed.c.o
+
+uninformed.i: uninformed.c.i
+
+.PHONY : uninformed.i
+
+# target to preprocess a source file
+uninformed.c.i:
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/uninformed.c.i
+.PHONY : uninformed.c.i
+
+uninformed.s: uninformed.c.s
+
+.PHONY : uninformed.s
+
+# target to generate assembly for a file
+uninformed.c.s:
+	$(MAKE) -f CMakeFiles/missionariesAndCannibals2.dir/build.make CMakeFiles/missionariesAndCannibals2.dir/uninformed.c.s
+.PHONY : uninformed.c.s
 
 # Help Target
 help:
@@ -157,11 +211,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... missionariesAndCannibals"
+	@echo "... missionariesAndCannibals2"
 	@echo "... edit_cache"
+	@echo "... informed.o"
+	@echo "... informed.i"
+	@echo "... informed.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... uninformed.o"
+	@echo "... uninformed.i"
+	@echo "... uninformed.s"
 .PHONY : help
 
 

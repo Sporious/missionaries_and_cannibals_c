@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/iksf/CLionProjects/missionariesAndCannibals/main.c
+/home/iksf/CLionProjects/missionariesAndCannibals2/main.c
 main.h
-/home/iksf/CLionProjects/missionariesAndCannibals/main.h
+/home/iksf/CLionProjects/missionariesAndCannibals2/main.h
 
-/home/iksf/CLionProjects/missionariesAndCannibals/main.h
-stdint.h
--
+/home/iksf/CLionProjects/missionariesAndCannibals2/main.h
 stdio.h
+-
+string.h
 -
 stdbool.h
 -
 stdlib.h
 -
-string.h
+stdint.h
 -
 

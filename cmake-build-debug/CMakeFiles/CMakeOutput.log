@@ -1,4 +1,4 @@
-The system is: Linux - 4.18.12-200.fc28.x86_64 - x86_64
+The system is: Linux - 4.20.4-100.fc28.x86_64 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/lib64/ccache/cc 
 Build flags: 
@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_182db/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_182db.dir/build.make CMakeFiles/cmTC_182db.dir/build
-gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_182db.dir/testCCompiler.c.o
-/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_182db.dir/testCCompiler.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_182db
-/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_182db.dir/link.txt --verbose=1
-/usr/lib64/ccache/cc      CMakeFiles/cmTC_182db.dir/testCCompiler.c.o  -o cmTC_182db 
-gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_ae4e7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ae4e7.dir/build.make CMakeFiles/cmTC_ae4e7.dir/build
+gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae4e7.dir/testCCompiler.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_ae4e7.dir/testCCompiler.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ae4e7
+/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae4e7.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc      CMakeFiles/cmTC_ae4e7.dir/testCCompiler.c.o  -o cmTC_ae4e7 
+gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d0954/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d0954.dir/build.make CMakeFiles/cmTC_d0954.dir/build
-gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o
-/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o   -c /home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d0954
-/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0954.dir/link.txt --verbose=1
-/usr/lib64/ccache/cc     -v CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o  -o cmTC_d0954 
+Run Build Command:"/usr/bin/gmake" "cmTC_95e73/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_95e73.dir/build.make CMakeFiles/cmTC_95e73.dir/build
+gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o   -c /home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_95e73
+/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95e73.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc     -v CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o  -o cmTC_95e73 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -48,24 +48,24 @@ Thread model: posix
 gcc version 8.2.1 20181215 (Red Hat 8.2.1-6) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0954' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccck0p7p.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0954 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0954' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95e73' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpbUa1t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_95e73 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95e73' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d0954/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d0954.dir/build.make CMakeFiles/cmTC_d0954.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o   -c /home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d0954]
-  ignore line: [/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0954.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib64/ccache/cc     -v CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o  -o cmTC_d0954 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_95e73/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_95e73.dir/build.make CMakeFiles/cmTC_95e73.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o   -c /home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_95e73]
+  ignore line: [/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95e73.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib64/ccache/cc     -v CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o  -o cmTC_95e73 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -77,13 +77,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.1 20181215 (Red Hat 8.2.1-6) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0954' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccck0p7p.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0954 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95e73' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpbUa1t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_95e73 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccck0p7p.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpbUa1t.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d0954] ==> ignore
+    arg [cmTC_95e73] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-    arg [CMakeFiles/cmTC_d0954.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_95e73.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -132,17 +132,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3a4da/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_3a4da.dir/build.make CMakeFiles/cmTC_3a4da.dir/build
-gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a4da.dir/feature_tests.c.o
-/usr/lib64/ccache/cc   -std=c11 -o CMakeFiles/cmTC_3a4da.dir/feature_tests.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3a4da
-/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a4da.dir/link.txt --verbose=1
-/usr/lib64/ccache/cc      CMakeFiles/cmTC_3a4da.dir/feature_tests.c.o  -o cmTC_3a4da 
-gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_d3953/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d3953.dir/build.make CMakeFiles/cmTC_d3953.dir/build
+gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3953.dir/feature_tests.c.o
+/usr/lib64/ccache/cc   -std=c11 -o CMakeFiles/cmTC_d3953.dir/feature_tests.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d3953
+/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3953.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc      CMakeFiles/cmTC_d3953.dir/feature_tests.c.o  -o cmTC_d3953 
+gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,17 +152,17 @@ gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals/c
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_bce40/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_bce40.dir/build.make CMakeFiles/cmTC_bce40.dir/build
-gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bce40.dir/feature_tests.c.o
-/usr/lib64/ccache/cc   -std=c99 -o CMakeFiles/cmTC_bce40.dir/feature_tests.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bce40
-/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce40.dir/link.txt --verbose=1
-/usr/lib64/ccache/cc      CMakeFiles/cmTC_bce40.dir/feature_tests.c.o  -o cmTC_bce40 
-gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_e54c6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e54c6.dir/build.make CMakeFiles/cmTC_e54c6.dir/build
+gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e54c6.dir/feature_tests.c.o
+/usr/lib64/ccache/cc   -std=c99 -o CMakeFiles/cmTC_e54c6.dir/feature_tests.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e54c6
+/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e54c6.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc      CMakeFiles/cmTC_e54c6.dir/feature_tests.c.o  -o cmTC_e54c6 
+gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -172,17 +172,17 @@ gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals/c
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_30f1b/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_30f1b.dir/build.make CMakeFiles/cmTC_30f1b.dir/build
-gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_30f1b.dir/feature_tests.c.o
-/usr/lib64/ccache/cc   -std=c90 -o CMakeFiles/cmTC_30f1b.dir/feature_tests.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_30f1b
-/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30f1b.dir/link.txt --verbose=1
-/usr/lib64/ccache/cc      CMakeFiles/cmTC_30f1b.dir/feature_tests.c.o  -o cmTC_30f1b 
-gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_ca199/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ca199.dir/build.make CMakeFiles/cmTC_ca199.dir/build
+gmake[1]: Entering directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca199.dir/feature_tests.c.o
+/usr/lib64/ccache/cc   -std=c90 -o CMakeFiles/cmTC_ca199.dir/feature_tests.c.o   -c /home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ca199
+/home/iksf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca199.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc      CMakeFiles/cmTC_ca199.dir/feature_tests.c.o  -o cmTC_ca199 
+gmake[1]: Leaving directory '/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes

@@ -1,0 +1,12 @@
+//
+// Created by iksf on 29/01/19.
+//
+
+#ifndef MISSIONARIESANDCANNIBALS2_UNINFORMED_H
+#define MISSIONARIESANDCANNIBALS2_UNINFORMED_H
+#include "main.h"
+
+uint32_t hash(GameState* g);
+
+
+#endif //MISSIONARIESANDCANNIBALS2_UNINFORMED_H
