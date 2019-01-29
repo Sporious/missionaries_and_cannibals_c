@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/iksf/CLionProjects/missionariesAndCannibals/main.c
+main.h
+/home/iksf/CLionProjects/missionariesAndCannibals/main.h
+
+/home/iksf/CLionProjects/missionariesAndCannibals/main.h
+stdint.h
+-
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
