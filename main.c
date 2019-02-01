@@ -140,18 +140,16 @@ BankState parse_line(char *line) {
 
 void add_child_to_node(Node *n, GameState g, uint32_t hash_target) {
     if (n != NULL) {
-        Node *new = calloc(sizeof(Node), 1);
-        new->game_state = g;
-        new->parent = n;
+        Node *new_node = calloc(sizeof(Node), 1);
+        new_node->game_state = g;
+        new_node->parent = n;
 
         if (hash(&g) == hash_target) {
-            printf("success");
-            print(&n->game_state);
-            on_complete(new);
+            on_complete(new_node);
         }
         for (size_t i = 0; i < 5; i++) {
             if (n->children[i] == NULL) {
-                n->children[i] = new;
+                n->children[i] = new_node;
                 gen_child_gamestates(n->children[i], hash_target);
                 return;
             }
@@ -192,6 +190,7 @@ void on_complete(Node *node) {
 void print_answers_array(Node **answers_array, size_t i) {
     puts("Result path:");
     for (size_t j = 0; j < i; j++) {
+        printf("%zu: ", j);
         print(&answers_array[j]->game_state);
     }
 
@@ -225,10 +224,7 @@ bool check_parent_hashes(Node *root, uint32_t hash_value, uint32_t hash_target) 
     }
 
     uint32_t hash = hash_node(root);
-    if (hash == hash_target) {
-        printf("Done!\n");
-        error("");
-    } else if (hash_node(root) != hash_value) {
+     if (hash_node(root) != hash_value) {
         return check_parent_hashes(root->parent, hash_value, hash_target);
     }
 
