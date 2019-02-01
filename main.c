@@ -196,14 +196,6 @@ void print_answers_array(Node **answers_array, size_t i) {
 
 }
 
-Node *get_root(Node *n) {
-    Node *t = n;
-    while (t->parent != NULL) {
-        t = t->parent;
-    }
-    return t;
-}
-
 uint32_t hash(GameState *g) {
 
     if (g != NULL) {
@@ -223,7 +215,6 @@ bool check_parent_hashes(Node *root, uint32_t hash_value, uint32_t hash_target) 
         return true;
     }
 
-    uint32_t hash = hash_node(root);
      if (hash_node(root) != hash_value) {
         return check_parent_hashes(root->parent, hash_value, hash_target);
     }

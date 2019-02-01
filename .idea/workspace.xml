@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="missionariesAndCannibals" targetName="missionariesAndCannibals" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -9,11 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5956ca67-6698-429d-90a6-27730b81bfb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="5956ca67-6698-429d-90a6-27730b81bfb4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +20,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="203" column="12" selection-start-line="203" selection-start-column="12" selection-end-line="203" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -80,7 +79,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="missionariesAndCannibals2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="missionariesAndCannibals" type="b2602c69:ProjectViewProjectNode" />
               <item name="missionaries_and_cannibals_c" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -130,12 +129,12 @@
       <workItem from="1548850229384" duration="4113000" />
       <workItem from="1549015065852" duration="64000" />
       <workItem from="1549015241530" duration="6552000" />
-      <workItem from="1549022343952" duration="6912000" />
+      <workItem from="1549022343952" duration="7376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22443000" />
+    <option name="totallyTimeSpent" value="22907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+        <state relative-caret-position="264">
+          <caret line="203" column="12" selection-start-line="203" selection-start-column="12" selection-end-line="203" selection-end-column="12" />
         </state>
       </provider>
     </entry>

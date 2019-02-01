@@ -49,8 +49,6 @@ void on_complete(Node *node);
 
 void print_answers_array(Node **answers_array, size_t argc);
 
-Node *get_root(Node *n);
-
 void print(GameState *g);
 
 uint32_t hash(GameState *g);
