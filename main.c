@@ -59,6 +59,7 @@ int main() {
         target_hash = hash_node(target_node);
         if (target_hash == 0)
             error("Invalid end state");
+        free(target_node);
     }
     gen_child_gamestates(tree, target_hash);
     //Cleanup
@@ -193,6 +194,7 @@ void print_answers_array(Node **answers_array, size_t i) {
         printf("%zu: ", j);
         print(&answers_array[j]->game_state);
     }
+    free(answers_array);
 
 }
 
