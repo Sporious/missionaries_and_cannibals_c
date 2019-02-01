@@ -1,1 +1,0 @@
-/usr/lib64/ccache/cc -g   CMakeFiles/missionariesAndCannibals2.dir/main.c.o CMakeFiles/missionariesAndCannibals2.dir/informed.c.o CMakeFiles/missionariesAndCannibals2.dir/uninformed.c.o  -o missionariesAndCannibals2 

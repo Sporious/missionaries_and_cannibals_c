@@ -1,3 +1,0 @@
-/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/missionariesAndCannibals2.dir
-/home/iksf/CLionProjects/missionariesAndCannibals2/cmake-build-debug/CMakeFiles/edit_cache.dir
